@@ -67,7 +67,6 @@ export default class Product extends Component {
                     {products.map( product => (
                         <div key={product.name}>
                             <div className="product">
-                                <span>{product.name}</span>
                                 <span className="productImage" role ="img" aria-label={product.name}>{product.emoji}</span>
                             </div>
                             <button onClick={() => this.add(product)}>Add</button> <button onClick={() => this.remove(product)}>Remove</button>

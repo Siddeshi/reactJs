@@ -1,0 +1,56 @@
+.portfolio {
+    margin: 0;
+}
+
+.portfolio .firstSection {
+    background-image: url('./images/background.jpeg');
+    background-color: #f4bc01; 
+    height: 480px; 
+    padding-top: 80px; 
+    text-align: center;
+}
+
+.portfolio .firstSection .profileImg {
+    height: 200px; 
+    border-radius: 50%; 
+    border: 10px solid #FEDE00;
+}
+
+.portfolio .firstSection .profileName {
+    font-size: 100px; 
+    color: white; 
+    margin: 10px;
+}
+
+.portfolio .firstSection .profession {
+    font-size: 30px; 
+    color: white;
+}
+
+.largeProfilePic {
+    height: 600px; 
+    margin: 100px; 
+    float: left;
+}
+
+.secondSection {
+    height: 600px; 
+    margin: 100px;
+}
+
+.secondSection .profileSummary {
+    line-height: 2.0; 
+    font-size: 20px;
+}
+
+footer {
+    height: auto; 
+    background-color: #F7C201;
+}
+
+footer .footerText {
+    color: white; 
+    padding: 30px; 
+    margin: 0; 
+    text-align: center;
+}

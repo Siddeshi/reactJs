@@ -1,3 +1,4 @@
+import Animals from '../AnimalCard/Animals';
 import Emojis from '../Emojis/Emojis';
 import Instructions from '../Instructions/Instructions';
 import PortFolio from '../Portfolio/Portfolio';
@@ -9,7 +10,8 @@ function App() {
   <div>
     {/* <Product/> */}
     {/* <Emojis/> */}
-    <PortFolio/>    
+    {/* <PortFolio/>     */}
+    <Animals />
   </div>
   )}
 

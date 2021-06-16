@@ -1,3 +1,4 @@
+import DisplayAlert from '../Alert/DisplayAlert';
 import Animals from '../AnimalCard/Animals';
 import Emojis from '../Emojis/Emojis';
 import Instructions from '../Instructions/Instructions';
@@ -11,7 +12,8 @@ function App() {
     {/* <Product/> */}
     {/* <Emojis/> */}
     {/* <PortFolio/>     */}
-    <Animals />
+    {/* <Animals /> */}
+    <DisplayAlert/>
   </div>
   )}
 

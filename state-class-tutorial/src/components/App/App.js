@@ -1,5 +1,6 @@
 import DisplayAlert from '../Alert/DisplayAlert';
 import Animals from '../AnimalCard/Animals';
+import CustomSaladMaker from '../CustomSaladMaker/CustomSaladMaker';
 import Emojis from '../Emojis/Emojis';
 import Instructions from '../Instructions/Instructions';
 import PortFolio from '../Portfolio/Portfolio';
@@ -15,7 +16,8 @@ function App() {
     {/* <PortFolio/>     */}
     {/* <Animals /> */}
     {/* <DisplayAlert/> */}
-    <IceCream/>
+    {/* <IceCream/> */}
+    <CustomSaladMaker/>
   </div>
   )}
 
